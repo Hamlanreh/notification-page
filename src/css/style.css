@@ -120,10 +120,10 @@ article > div .innerbox {
   font-size: 13px;
 }
 
-article.active {
+article.read {
   background-color: var(--very-light-grayish-blue);
 }
-article.active > div p:first-child::after {
+article.read > div p:first-child::after {
   content: "";
   display: inline-block;
   background-color: var(--red);
